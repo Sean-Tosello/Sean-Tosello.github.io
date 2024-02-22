@@ -3,12 +3,12 @@ import styles from './Navbar.module.css';
 import NavbarButton from './NavbarButton';
 import AboutOverlay from '../AboutOverlay/AboutOverlay';
 import ProjectsOverlay from '../ProjectsOverlay/ProjectsOverlay';
-import { Document } from 'react-pdf';
+import Resume from './SeanToselloResume.pdf';
 
 
 function Navbar() {
   const openPDF = () => {
-    const pdfPath = './SeanToselloResume.pdf';
+    const pdfPath = Resume;
     window.open(pdfPath, '_blank');
   };
   
