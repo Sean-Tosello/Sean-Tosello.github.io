@@ -1,8 +1,11 @@
-import './App.css';
+import React from 'react';
+import styles from './App.css';
+import Navbar from '../Navbar/Navbar';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
+      <Navbar />
     </div>
   );
 }
