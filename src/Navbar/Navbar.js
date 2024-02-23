@@ -13,10 +13,10 @@ function Navbar() {
   };
   
   return (
-    <nav>
+    <nav className={styles.navbar}>
       <NavbarButton buttonText='About' overlayText={<AboutOverlay />} />
       <NavbarButton buttonText='Projects' overlayText={<ProjectsOverlay />} />
-      <button onClick={openPDF}>Resume</button>
+      <button className={styles.navbarButton} onClick={openPDF}>Resume</button>
     </nav>
   )
 }

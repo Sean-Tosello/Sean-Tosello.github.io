@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  left: 0;
+  margin-top: 0;
+  margin-left: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  color: #007BFF;
+  z-index: 1;
+}
+
+.container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container li {
+  border-bottom: #007BFF 1px solid;
+  padding: 10px;
+}

@@ -3,20 +3,12 @@ import styles from './ProjectsOverlay.module.css';
 
 const ProjectsOverlay = () => {
   return (
-    <div>
+    <div className={styles.container} style={styles}>
       <ul>
-        <li>
-          <p>ravenous</p>
-        </li>
-        <li>
-          <p>Colmar Academy</p>
-        </li>  
-        <li>
-          <p>Tea Cozy</p>
-        </li>  
-        <li>
-          <p>Excursion</p>
-        </li>
+        <li>ravenous</li>
+        <li>Colmar Academy</li> 
+        <li>Tea Cozy</li>
+        <li>Excursion</li>
       </ul>
     </div>  
   );

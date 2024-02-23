@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  position: fixed;
+  left: 0;
+  margin-top: 0;
+  margin-left: 0;
+  width: 100%;
+  /* height: auto; */
+  background-color: whitesmoke;
+  color: #007BFF;
+  z-index: 1;
+}
+
+.container ul {
+  padding: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+.container li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #007BFF 1px solid;
+  border-width: 100%;
+  text-align: center;
+  /* padding: 10px; */
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  color: white;
+  background-color: #007BFF;
+}
