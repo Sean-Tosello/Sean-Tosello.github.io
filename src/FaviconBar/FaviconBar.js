@@ -6,7 +6,7 @@ const FaviconBar = () => {
     <nav className={styles.container}>
       <ul>
         <li>
-          <a href="https://www.linkedin.com/in/seantosello/" target="_blank" rel="noopener noreferrer"> 
+          <a href="https://www.linkedin.com/in/sean-tosello/" target="_blank" rel="noopener noreferrer"> 
             <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" /> 
           </a>
         </li>
@@ -16,7 +16,6 @@ const FaviconBar = () => {
           </a>
         </li>
       </ul>
-
     </nav>
 
   )
