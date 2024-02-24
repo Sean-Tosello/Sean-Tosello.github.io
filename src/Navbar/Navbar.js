@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './Navbar.module.css';
 import NavbarButton from './NavbarButton';
-import AboutOverlay from '../AboutOverlay/AboutOverlay';
-import ProjectsOverlay from '../ProjectsOverlay/ProjectsOverlay';
+import AboutOverlay from './AboutOverlay/AboutOverlay';
+import ProjectsOverlay from './ProjectsOverlay/ProjectsOverlay';
 import Resume from './SeanToselloResume.pdf';
 
 
