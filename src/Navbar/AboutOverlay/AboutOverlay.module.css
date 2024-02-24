@@ -6,17 +6,19 @@
   margin-top: 0;
   margin-left: 0;
   width: 100%;
-  background-color: whitesmoke;
-  color: #007BFF;
+  background-color: #282c34;
   z-index: 1;
 }
 
 .container ul {
   list-style: none;
   padding: 0;
+  text-align: center;
 }
 
 .container li {
-  border-bottom: #007BFF 1px solid;
+  border-bottom: whitesmoke 1px solid;
+  color: whitesmoke;
   padding: 10px;
+  text-shadow: 6px 6px 10px #000000;
 }

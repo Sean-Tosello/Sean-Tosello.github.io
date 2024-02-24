@@ -5,10 +5,10 @@ const ProjectsOverlay = () => {
   return (
     <div className={styles.container} style={styles}>
       <ul>
-        <li>ravenous</li>
-        <li>Colmar Academy</li> 
-        <li>Tea Cozy</li>
-        <li>Excursion</li>
+        <li><button>ravenous</button></li>
+        <li><button>Colmar Academy</button></li> 
+        <li><button>Tea Cozy</button></li>
+        <li><button>Excursion</button></li>
       </ul>
     </div>  
   );

@@ -3,6 +3,7 @@ import styles from './App.css';
 import Navbar from '../Navbar/Navbar';
 import Body from '../Body/Body';
 import FaviconBar from '../FaviconBar/FaviconBar';
+import Footer from '../Footer/Footer';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Navbar />
       <Body />
       <FaviconBar />
+      <Footer />
     </div>
   );
 }

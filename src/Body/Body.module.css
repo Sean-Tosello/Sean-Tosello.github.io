@@ -1,8 +1,54 @@
 .container {
-  padding-top: 255px;
-  padding-bottom: 255px;
+  padding-top: 300px;
+  padding-bottom: 100px;
+  /* padding-left: 20px; */
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: #282c34;
   color: white;
 }
+
+.header {
+  padding-bottom: 50px;
+  text-shadow: 6px 6px 10px #000000;
+}
+
+.container h1 {
+  margin: 0;
+  font-size: 6em;
+  font-weight: 500;
+  border-bottom: whitesmoke 5px solid;
+}
+
+.container h2 {
+  padding-left: 75px;
+  margin: 0;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 6px 6px 10px #000000;
+}
+
+.container h4 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+/* 
+#firstLine {
+  padding-left: 150px;
+}
+
+#secondLine {
+  padding-left: 300px;
+}
+
+#thirdLine {
+  padding-left: 450px;
+} */
