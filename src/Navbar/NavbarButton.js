@@ -11,7 +11,11 @@ function NavbarButton({ buttonText, overlayText }) {
 
   return (
     <div>
-      <button className={styles.navbarButton} onClick={toggleOverlay}>{buttonText}</button>
+      <button className={styles.navbarButton} onClick={toggleOverlay}>
+        <span className={styles.buttonFront}>
+          {buttonText}
+        </span>
+      </button>
       <Overlay show={showOverlay} text={overlayText} />
     </div>
   );

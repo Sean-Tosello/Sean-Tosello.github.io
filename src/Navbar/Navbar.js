@@ -16,7 +16,11 @@ function Navbar() {
     <nav className={styles.navbar}>
       <NavbarButton buttonText='ABOUT' overlayText={<AboutOverlay />} />
       <NavbarButton buttonText='PROJECTS' overlayText={<ProjectsOverlay />} />
-      <button className={styles.navbarButton} onClick={openPDF} rel="noopener noreferrer" >RESUME</button>
+      <button className={styles.navbarButton} onClick={openPDF} rel="noopener noreferrer" >
+        <span className={styles.buttonFront}>
+          RESUME
+        </span>
+      </button>
     </nav>
   )
 }

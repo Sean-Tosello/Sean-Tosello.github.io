@@ -7,7 +7,7 @@ import Footer from '../Footer/Footer';
 
 const App = () => {
   return (
-    <div className="App">
+    <div style={styles.app} className="App">
       <Navbar />
       <Body />
       <FaviconBar />

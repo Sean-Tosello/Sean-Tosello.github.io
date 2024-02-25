@@ -1,4 +1,5 @@
 .container {
+  padding-top: 40px;
   display: flex;
   position: fixed;
   left: 0;
@@ -20,16 +21,27 @@
 }
 
 .container button {
-  padding: 10px;
-  width: 115px;
-  height: 115px;
-  background-color: #36027a;
-  color: whitesmoke;
-  font-weight: 800;
-  border-radius: 100%;
-  cursor: 'pointer';
-  text-align: center;
-  box-shadow: 6px 6px 10px #000000;
-  text-shadow: 0 -1px 1px rgba(0,0,0,0.9),
-    1px -1px 0 black;
+  background: hsl(340deg 100% 32%);
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  width: 274.69px;
 }
+
+.buttonFront {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  width: 190.69px;
+  font-size: 1.25rem;
+  background: hsl(345deg 100% 47%);
+  color: whitesmoke;
+  transform: translateY(-6px);
+}
+
+.container button:active .buttonFront {
+  transform: translateY(-2px);
+}
+
