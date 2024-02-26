@@ -19,29 +19,25 @@
   padding: 0;
 }
 
-.projectsButton {
-  background: rgb(0, 175, 117);
+.skillsetButton {
+  background-color: #181a1f;
   border-radius: 12px;
   border: none;
   padding: 0;
   cursor: pointer;
   outline-offset: 4px;
-  width: 274.69px;
+  width: 48px;
 }
 
 .buttonFront {
   display: block;
-  padding: 12px 42px;
+  padding: 0;
   border-radius: 12px;
-  width: 190.69px;
-  font-size: 1.25rem;
-  font-weight: 600;
-  background: rgb(0, 241, 161);
-  color: whitesmoke;
+  width: auto;
+  background-color: #282c34;
   transform: translateY(-6px);
 }
 
-.projectsButton:active .buttonFront {
+.faviconButton:active .buttonFront {
   transform: translateY(-2px);
 }
-
