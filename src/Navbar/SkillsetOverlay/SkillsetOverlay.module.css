@@ -38,6 +38,6 @@
   transform: translateY(-6px);
 }
 
-.faviconButton:active .buttonFront {
+.skillsetButton:active .buttonFront {
   transform: translateY(-2px);
 }
