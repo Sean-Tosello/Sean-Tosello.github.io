@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.5351a8f2.css",
-    "main.js": "/static/js/main.b0f5ac3e.js",
+    "main.css": "/static/css/main.b7f8d367.css",
+    "main.js": "/static/js/main.69c6fee5.js",
+    "static/media/teacozy.jpg": "/static/media/teacozy.3316704d657cb23a988b.jpg",
+    "static/media/ravenous.jpg": "/static/media/ravenous.13a4a5f1369590aa72b2.jpg",
+    "static/media/colmaracademy.png": "/static/media/colmaracademy.8da821582d551f49f1a8.png",
+    "static/media/profile-right.jpg": "/static/media/profile-right.7d155f96fd510439aacf.jpg",
+    "static/media/profileSquare.jpg": "/static/media/profileSquare.7d155f96fd510439aacf.jpg",
+    "static/media/excursion.jpg": "/static/media/excursion.77f33ff530cf8539aec4.jpg",
     "static/media/SeanToselloResume.pdf": "/static/media/SeanToselloResume.c6374eecb1f617b0a080.pdf",
     "index.html": "/index.html",
-    "main.5351a8f2.css.map": "/static/css/main.5351a8f2.css.map",
-    "main.b0f5ac3e.js.map": "/static/js/main.b0f5ac3e.js.map"
+    "main.b7f8d367.css.map": "/static/css/main.b7f8d367.css.map",
+    "main.69c6fee5.js.map": "/static/js/main.69c6fee5.js.map"
   },
   "entrypoints": [
-    "static/css/main.5351a8f2.css",
-    "static/js/main.b0f5ac3e.js"
+    "static/css/main.b7f8d367.css",
+    "static/js/main.69c6fee5.js"
   ]
 }
