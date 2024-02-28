@@ -1,14 +1,15 @@
-.container {
+.footer {
+  position: sticky;
+  bottom: 0;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   padding: 40px 20px;
   color: whitesmoke;
-  background-color: #282c34;
   text-shadow: 0 1px 0px rgb(134, 134, 134);
 }
 
-.container a {
+.footer a {
   text-decoration: none;
   color: whitesmoke;
 }

@@ -1,31 +1,33 @@
-.container {
+.bodyContainer {
   width: 100%;
-  padding-top: 150px;
-  padding-bottom: 25px;
+  margin-top: 250px;
+  position: sticky;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #282c34;
-  color: white;
+  color: whitesmoke;
+  text-shadow:
+  .5px .5px 0 #a7a7a7,
+  -.5px .5px 0 #a7a7a7,
+  -.5px -.5px 0 #a7a7a7,
+  .5px -.5px 0 #a7a7a7,
+  0px 4px 0px #a7a7a7;
 }
 
 .header {
-  padding-bottom: 50px;
-  text-shadow: 0 4px 0px rgb(134, 134, 134);
+  padding-bottom: 20px;
   text-align: center;
 }
 
-.container h1 {
+.header h1 {
   margin: 0;
-  font-size: 6em;
-  font-weight: 500;
-  border-bottom: whitesmoke 5px solid;
-  box-shadow: 0 4px 0px rgb(134, 134, 134);
+  font-size: 7em;
+  font-weight: 600;
 }
 
-.container h2 {
+.header h2 {
   margin: 0;
-  font-size: 3em;
+  font-size: 4em;
   font-weight: 600;
 }
 
@@ -34,11 +36,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-shadow: 0 1.5px 0px rgb(134, 134, 134);
 }
 
-.container h4 {
-  font-size: 1.5em;
-  font-weight: 500;
+.body h4 {
+  font-size: 2em;
+  font-weight: 700;
+  /* text-shadow: 0 2px 0px rgb(202, 91, 0); */
+  /* text-shadow: 6px 6px 10px rgb(0, 0, 0); */
 }
 

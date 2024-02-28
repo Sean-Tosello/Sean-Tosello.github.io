@@ -1,47 +1,137 @@
-.container {
-  padding-top: 40px;
+.projectsOverlay {
+  padding-top: 20px;
   display: flex;
   position: fixed;
   left: 0;
   margin-top: 0;
   margin-left: 0;
   width: 100%;
-  background-color: #282c34;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
-.container ul {
+.buttonsList {
   padding: 0;
   display: flex;
   width: 100%;
+  height: 220px;
   justify-content: space-around;
+  align-items: center;
   list-style: none;
   padding: 0;
 }
 
-.projectsButton {
-  background: rgb(0, 175, 117);
+.buttonWithText {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  /* max-width: 725px; */
+  height: 100%;
+}
+
+.buttonBox{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  max-width: 15%;
+  height: 129px;
+}
+
+.buttonBox h3 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  text-shadow: 0 1.5px 0px rgb(134, 134, 134)
+}
+
+.projectButton {
+  background-color: rgb(153, 153, 153);
   border-radius: 12px;
   border: none;
   padding: 0;
   cursor: pointer;
   outline-offset: 4px;
-  width: 274.69px;
+  width: 80px;
+  height: 80px;
 }
 
 .buttonFront {
   display: block;
-  padding: 12px 42px;
+  padding: 0;
   border-radius: 12px;
-  width: 190.69px;
-  font-size: 1.25rem;
-  font-weight: 600;
-  background: rgb(0, 241, 161);
-  color: whitesmoke;
+  height: 80px;
+  width: 80px;
+  background-color: whitesmoke;
   transform: translateY(-6px);
 }
 
-.projectsButton:active .buttonFront {
+.projectButton:active .buttonFront {
   transform: translateY(-2px);
 }
+
+.projectText {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 10px 10px;
+  border-radius: 12px;
+  height: 80%;
+  width: 70%;
+  background-color: rgba(245, 245, 245);
+  color: rgb(255, 115, 0);
+  box-shadow: 
+  1px 1px 0 rgb(8, 8, 8),
+  -1px 1px 0 rgb(201, 201, 201),
+  -1px -1px 0 rgb(201, 201, 201),
+  1px -1px 0 rgb(201, 201, 201),
+  0px 6px 0px rgb(153, 153, 153);
+}
+
+.projectDescription h4 {
+  width: 100%;
+  padding: 0;
+  margin: 0 0 0.5em 0;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.projectDescription {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  max-width: 50%;
+}
+
+.projectDescription p {
+  padding: 0;
+  margin: 0 0 0 0.5em;
+  font-weight: 500;
+}
+
+.featuresList {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  max-width: 50%;
+}
+
+.featuresList h4 {
+  width: 100%;
+  padding: 0;
+  margin: 0 0 0.5em 0;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.featuresList p {
+  padding: 0;
+  margin: 0 0 0 0.5em;
+  font-weight: 500;
+}
+
 
