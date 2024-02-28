@@ -1,5 +1,4 @@
 import React from 'react';
-// import './App.css';
 import Navbar from '../Navbar/Navbar';
 import Body from '../Body/Body';
 import FaviconBar from '../FaviconBar/FaviconBar';

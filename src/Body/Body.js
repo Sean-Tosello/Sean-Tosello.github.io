@@ -6,7 +6,7 @@ const Body = () => {
     <div className={styles.bodyContainer}> 
         <div className={styles.header}>
           <h1>Sean Tosello</h1>
-          <h2>Front End Engineer</h2>
+          <h2> - Front End Engineer - </h2>
         </div>
         <div className={styles.body}>
           <h4>🛠 Innovative Problem Solver by Lifestyle 🛠 | ⚙ Front End Engineer by Trade ⚙</h4>

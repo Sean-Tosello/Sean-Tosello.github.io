@@ -3,13 +3,6 @@ import styles from  './SkillsetOverlay.module.css';
 
 const SkillsetOverlay = () => {
   const [showSkillText, setShowSkillText] = useState(Array(5).fill(false));
-
-  // const toggleHandler = (index) => {
-  //   const updatedShowSkillText = [...showSkillText]; 
-  //   updatedShowSkillText[index] = !updatedShowSkillText[index]; 
-  //   setShowSkillText(updatedShowSkillText); 
-  // };
-
   const toggleHandler = (index) => {
     const updatedShowSkillText = showSkillText.map((value, i) => {
       if (i === index) {

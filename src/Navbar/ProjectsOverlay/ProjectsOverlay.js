@@ -36,10 +36,10 @@ const ProjectsOverlay = () => {
             </div>
             <ul className={styles.featuresList}>
               <li><h4>Features:</h4></li>
-              <li><p>Languages: JavaScript, HTML, CSS</p></li>
-              <li><p>React Library</p></li>
-              <li><p>React Components</p></li>
-              <li><p>Original Custom Design</p></li>
+              <li><p> - Languages: JavaScript, HTML, CSS</p></li>
+              <li><p> - React Library</p></li>
+              <li><p> - React Components</p></li>
+              <li><p> - Original Custom Design</p></li>
             </ul>
           </div> 
         </li>
@@ -55,11 +55,11 @@ const ProjectsOverlay = () => {
             </div>
             <ul className={styles.featuresList}> 
               <li><h4>Features:</h4></li>
-              <li><p>Languages: JavaScript, HTML, CSS</p></li>
-              <li><p>React Library</p></li>
-              <li><p>React Components</p></li>
-              <li><p>Original Custom Design</p></li>
-              <li><p>React Hook with Yelp API</p></li>
+              <li><p> - Languages: JavaScript, HTML, CSS</p></li>
+              <li><p> - React Library</p></li>
+              <li><p> - React Components</p></li>
+              <li><p> - Original Custom Design</p></li>
+              <li><p> - React Hook with Yelp API</p></li>
             </ul>
           </div> 
         </li>
@@ -75,9 +75,9 @@ const ProjectsOverlay = () => {
             </div>
             <ul className={styles.featuresList}> 
               <li><h4>Features:</h4></li>
-              <li><p>Languages: HTML, CSS</p></li>
-              <li><p>Responsive Design</p></li>
-              <li><p>Original Custom Design</p></li>
+              <li><p> - Languages: HTML, CSS</p></li>
+              <li><p> - Responsive Design</p></li>
+              <li><p> - Original Custom Design</p></li>
             </ul>
           </div> 
         </li>
@@ -93,8 +93,8 @@ const ProjectsOverlay = () => {
             </div>
             <ul className={styles.featuresList}> 
               <li><h4>Features:</h4></li>
-              <li><p>Languages: HTML, CSS</p></li>
-              <li><p>Original Custom Design</p></li>
+              <li><p> - Languages: HTML, CSS</p></li>
+              <li><p> - Original Custom Design</p></li>
             </ul>
           </div> 
         </li>
@@ -110,7 +110,7 @@ const ProjectsOverlay = () => {
             </div>
             <ul className={styles.featuresList}> 
               <li><h4>Features:</h4></li>
-              <li><p>Languages: HTML, CSS</p></li>
+              <li><p> - Languages: HTML, CSS</p></li>
             </ul>
           </div>  
         </li>
