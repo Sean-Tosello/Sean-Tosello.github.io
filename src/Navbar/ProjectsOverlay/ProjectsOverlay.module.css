@@ -1,40 +1,42 @@
 .projectsOverlay {
-  padding-top: 20px;
+  padding: 30px 0;
   display: flex;
   position: fixed;
   left: 0;
   margin-top: 0;
   margin-left: 0;
   width: 100%;
+  height: 220px;
 }
 
 .buttonsList {
-  padding: 0;
   display: flex;
   width: 100%;
-  height: 220px;
+  height: 100%;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .buttonWithText {
   display: flex;
-  flex-flow: row wrap;
-  align-items: center;
+  flex-flow: row nowrap;
+  align-items: flex-start;
   justify-content: center;
-  height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .buttonBox{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   text-align: center;
   justify-content: center;
+  align-items: center;
   padding: 20px;
-  max-width: 15%;
-  height: 129px;
+  /* width: 10%; */
 }
 
 .buttonBox h3 {
@@ -51,8 +53,6 @@
   padding: 0;
   cursor: pointer;
   outline-offset: 4px;
-  width: 80px;
-  height: 80px;
 }
 
 .buttonFront {
@@ -71,11 +71,11 @@
 
 .projectText {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   padding: 10px 10px;
   border-radius: 12px;
-  height: 60%;
-  width: 50%;
+  height: fit-content;
+  max-width: 70%;
   background-color: rgba(245, 245, 245);
   color: rgb(255, 115, 0);
   box-shadow: 
@@ -86,7 +86,13 @@
   0px 6px 0px rgb(153, 153, 153);
 }
 
-.projectDescription h4 {
+.projectText p {
+  padding: 0;
+  margin: 0 0 0 0.5em;
+  font-weight: 500;
+}
+
+.projectText h4 {
   width: 100%;
   padding: 0;
   margin: 0 0 0.5em 0;
@@ -100,12 +106,7 @@
   margin: 0;
   text-align: left;
   width: 50%;
-}
-
-.projectDescription p {
-  padding: 0;
-  margin: 0 0 0 0.5em;
-  font-weight: 500;
+  height: 100%;
 }
 
 .featuresList {
@@ -115,21 +116,80 @@
   list-style-type: none;
   padding: 0;
   width: 50%;
-}
-
-.featuresList h4 {
-  width: 100%;
-  padding: 0;
-  margin: 0 0 0.5em 0;
-  text-align: center;
-  text-decoration-line: underline;
-  text-transform: uppercase;
-}
-
-.featuresList p {
-  padding: 0;
-  margin: 0 0 0 0.5em;
-  font-weight: 500;
+  height: 100%;
 }
 
 
+@media only screen and (max-width: 1100px) {  
+  .projectsOverlay {
+    backdrop-filter: blur(10px);
+    padding-bottom: 100vh;
+    z-index: 2;
+  }
+  
+  .projectText {
+    padding: 5px;
+    position: fixed;
+    left: 15%;
+    top: 30%;
+    width: 70%;
+    height: fit-content;
+  }
+  
+  .projectDescription {
+    width: 100%;
+    margin-bottom: 5px;
+  }  
+  
+  .featuresList {
+    width: 100%;
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .projectsOverlay {
+    height: 30%;
+  }
+  
+  .buttonFront {
+    width: 60px;
+    height: 60px;
+  }
+
+  .buttonBox {
+    max-width: 75px;
+  }
+
+  .buttonsList {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  
+  /* .buttonFront {
+    width: 48px;
+    height: 48px;
+  } */
+
+  .buttonBox {
+    padding: 10px;
+  }
+
+  .buttonBox h3 {
+    font-size: 0.8em;
+  }
+
+  .projectText p {
+    font-size: 0.8em;
+  }
+
+  .projectText h4 {
+    font-size: 0.8em;
+  }
+
+}

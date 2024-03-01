@@ -3,7 +3,7 @@ import styles from './FaviconBar.module.css';
 
 const FaviconBar = () => {
   return (
-    <nav className={styles.container}>
+    <nav className={styles.faviconBar}>
       <ul>
         <li>
           <a href="https://www.linkedin.com/in/sean-tosello/" target="_blank" rel="noopener noreferrer"> 

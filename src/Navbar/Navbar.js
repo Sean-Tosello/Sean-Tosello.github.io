@@ -13,6 +13,7 @@ function Navbar() {
     window.open(pdfPath, '_blank');
   };
   
+  
   return (
     <nav className={styles.navbar}>
       <NavbarButton buttonText='ABOUT' overlayText={<AboutOverlay />} />

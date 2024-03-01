@@ -1,12 +1,11 @@
 .about {
+  position: fixed;
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: fixed;
-  left: 0;
-  margin-top: 0;
-  margin-left: 0;
   width: 100%;
+  padding: 30px 0;
 }
 
 .imageContainer {
@@ -25,17 +24,18 @@
   -2px 2px 0 rgb(201, 201, 201),
   -2px -2px 0 rgb(201, 201, 201),
   2px -2px 0 rgb(201, 201, 201),
-  0px 8px 0px rgb(153, 153, 153);
+  0px 6px 0px rgb(153, 153, 153);
 }
 
 .personalIntro {
   display: flex;
   flex-flow: column;
   align-items: center;
+  margin-right: 20px;
   padding: 20px 20px;
   border-radius: 15px;
   height: fit-content;
-  width: 60%;
+  width: 990px;
   background-color: rgba(245, 245, 245);
   box-shadow: 
   1px 1px 0 rgb(201, 201, 201),
@@ -59,4 +59,64 @@
   font-weight: 400;
   font-size: 1.25em;
   margin: 0;
+}
+
+@media only screen and (max-width:1100px) {
+  .profileImg {
+    height: 120px;
+    width: 120px;
+  }
+  
+  .personalIntro {
+    width: fit-content;
+  }
+
+  .personalIntro h4 {
+    font-size: 1em;
+  }
+
+  .personalIntro p {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .about {
+    backdrop-filter: blur(10px);
+    z-index: 2;
+  }
+  
+  .profileImg {
+    height: 110px;
+    width: 110px;
+  }
+  
+  .personalIntro {
+    width: 500px;
+  }
+
+  .personalIntro h4 {
+    font-size: .75em;
+  }
+
+  .personalIntro p {
+    font-size: .75em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    flex-flow: row wrap;
+    padding-bottom: 100vh;
+  }
+
+  .profileImg {
+    height: 125px;
+    width: 125px;
+  }
+
+  .personalIntro {
+    margin-left: 20px;
+  }
+
 }

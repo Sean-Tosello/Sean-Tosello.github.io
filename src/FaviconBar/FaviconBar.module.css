@@ -1,23 +1,21 @@
-.container {
+.faviconBar {
   position: fixed;
-  top: 255px;
-  right: 0;
+  top: 25vh;
   display: flex;
-  flex-direction: column wrap;
-  padding: 20px;
+  right: 20px;
+  padding: 20px 0;
   z-index: 4;
+  height: 464px;
 }
 
-.container ul {
-  list-style-type: none;
+.faviconBar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-}
-
-.container li {
-  margin: 50%;
+  justify-content: space-around;
 }
 
 .faviconButton {
@@ -27,7 +25,6 @@
   padding: 0;
   cursor: pointer;
   outline-offset: 4px;
-  width: 48px;
 }
 .buttonFront {
   display: block;
@@ -41,3 +38,33 @@
 .faviconButton:active .buttonFront {
   transform: translateY(-2px);
 }
+
+@media only screen and (max-width: 1100px) {
+  .faviconBar {
+    /* position: static; */
+    top: auto;
+    right: unset;
+    bottom: 0;
+    width: 100%;
+    height: 88px;
+  }
+  .faviconBar ul {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+/* @media only screen and (max-width: 400px) {
+  .faviconBar {
+    height: fit-content;
+  }
+  .buttonFront {
+    padding: 0;
+    transform: translateY(-4px);
+  }
+  .faviconButton {
+    border-radius: 8px;
+  }
+} */

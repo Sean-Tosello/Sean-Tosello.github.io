@@ -1,2 +1,14 @@
-
-
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: conic-gradient(at 0% 20%, rgba(0, 0, 0, 50%) 20deg, rgba(243, 243, 243, 0.5) 110deg, rgba(0, 0, 0, 50%) 160deg),
+    conic-gradient(at 100% 20%, rgba(0, 0, 0, 0.9) 200deg, rgba(255, 255, 255, 0.9) 250deg, rgba(0, 0, 0, 0.9) 340deg);
+  background-repeat: no-repeat;
+  color: whitesmoke;
+  height: 100vh; 
+  width: 100vw;
+}

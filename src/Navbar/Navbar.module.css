@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+  margin-bottom: 200px;
 }
 
 .navbarButton {
@@ -15,13 +16,12 @@
   padding: 0;
   cursor: pointer;
   outline-offset: 4px;
-  width: 274.69px;
 }
 .buttonFront {
   display: block;
-  padding: 12px 42px;
+  padding: 12px 20px;
   border-radius: 12px;
-  width: 190.69px;
+  width: 160px;
   font-size: 1.25rem;
   font-weight: 600;
   background-color: whitesmoke;
@@ -31,4 +31,51 @@
 
 .navbarButton:active .buttonFront {
   transform: translateY(-2px);
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+  }
+  .buttonFront {
+    width: 80px;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    padding: 10px 0;
+    margin-bottom: 0;
+  }
+  .buttonFront {
+    width: 70px;
+    padding: 8px 12px;
+    font-size: 0.8rem;
+    border-radius: 8px;
+  }
+  .navbarButton {
+    border-radius: 8px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbarButton {
+    margin: 10px 10px;
+  }
+
+  /* .buttonFront {
+    width: 120px;
+    padding: 12px 20px;
+    font-size: 1.25rem;
+  } */
 }

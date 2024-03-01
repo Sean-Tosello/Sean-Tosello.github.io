@@ -1,15 +1,42 @@
 .footer {
-  position: sticky;
+  position: fixed;
   display: flex;
   justify-content: space-between;
-  bottom: 0;
-  align-items: flex-end;
-  padding: 48px 20px 10px 20px;
+  align-items: center;
+  width: 100%;
   color: whitesmoke;
   text-shadow: 0 1px 0px rgb(134, 134, 134);
+  font-size: 1em;
+  padding-bottom: 10px;
+  bottom: 0;
 }
 
 .footer a {
   text-decoration: none;
   color: whitesmoke;
+  padding: 0 20px 0 0;
+  margin: 0;
+}
+
+.footer p {
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer p {
+    font-size: 0.6em;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    text-shadow: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .footer a {
+    padding: 0 10px 0 0;
+  }
+  .footer p {
+    padding: 0 0 0 10px;
+  }
 }
