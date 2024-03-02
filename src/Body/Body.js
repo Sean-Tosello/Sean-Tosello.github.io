@@ -11,15 +11,15 @@ const Body = () => {
         <div className={styles.body}>
           <h4>🛠 Innovative Problem Solver by Lifestyle 🛠 | ⚙ Front End Engineer by Trade ⚙</h4>
           <h4>💻 JavaScript | React | HTML & CSS | Python | Front-End Apps with API Integration 💻</h4>
-          <h4>🤝 18+ years of experience bringing Innovation, Enthusiasm, and Excellence to the workplace 🤝</h4>
+          <h4><span className={styles.grey}>🤝</span> 18+ years of experience bringing Innovation, Enthusiasm, and Excellence to the workplace <span className={styles.grey}>🤝</span></h4>
         </div>
         <div className={styles.bodyMobile}>
           <h4>🛠 Innovative Problem Solver by Lifestyle 🛠</h4>
           <h4>⚙ Front End Engineer by Trade ⚙</h4>
           <h4>💻 JavaScript | React | HTML & CSS | Python 💻</h4>
-          <h4>🌐 Front-End Apps with API Integration 🌐</h4>
-          <h4>🤝 18+ years of experience bringing: 🤝</h4>
-          <h4>🧱 Innovation | Enthusiasm | Excellence 🧱</h4>
+          <h4><span className={styles.grey}>🌐</span> Front-End Apps with API Integration <span className={styles.grey}>🌐</span></h4>
+          <h4><span className={styles.grey}>🤝</span> 18+ years of experience bringing: <span className={styles.grey}>🤝</span></h4>
+          <h4><span className={styles.grey}>🧱</span> Innovation | Enthusiasm | Excellence <span className={styles.grey}>🧱</span></h4>
         </div>
     </div>
   );

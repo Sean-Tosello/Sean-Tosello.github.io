@@ -170,12 +170,6 @@
 }
 
 @media only screen and (max-width: 400px) {
-  
-  /* .buttonFront {
-    width: 48px;
-    height: 48px;
-  } */
-
   .buttonBox {
     padding: 10px;
   }

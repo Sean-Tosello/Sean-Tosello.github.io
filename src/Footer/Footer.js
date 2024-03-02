@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <p>© 2024 Sean Tosello</p>
-      <p>Icons by: <a href="https://icons8.com/"  target="_blank" rel="noopener noreferrer">https://icons8.com/</a></p>
+      <a href="https://icons8.com/"  target="_blank" rel="noopener noreferrer"><p>Icons by: https://icons8.com/</p></a>
     </div>
   )
 }

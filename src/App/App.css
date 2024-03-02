@@ -1,4 +1,5 @@
-body {
+html, body {
+  display: flexbox;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -9,6 +10,7 @@ body {
     conic-gradient(at 100% 20%, rgba(0, 0, 0, 0.9) 200deg, rgba(255, 255, 255, 0.9) 250deg, rgba(0, 0, 0, 0.9) 340deg);
   background-repeat: no-repeat;
   color: whitesmoke;
-  height: 100vh; 
-  width: 100vw;
+  background-size: cover;
+  min-height: 100vh; 
+  min-width: 100vw;
 }

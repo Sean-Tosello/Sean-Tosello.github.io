@@ -37,45 +37,41 @@
   .navbar {
     position: sticky;
     top: 0;
-    z-index: 3;
   }
   .buttonFront {
-    width: 80px;
+    width: 120px;
     font-size: 1rem;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
+  .navbar {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+  }
+
+  .navbarButton {
+    margin: 5px 10px;
+  }
+  
   .navbar {
     padding: 10px 0;
     margin-bottom: 0;
   }
-  .buttonFront {
-    width: 70px;
-    padding: 8px 12px;
-    font-size: 0.8rem;
-    border-radius: 8px;
-  }
-  .navbarButton {
-    border-radius: 8px;
-  }
 }
 
 @media only screen and (max-width: 400px) {
-  .navbar {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
+  .buttonFront {
+    padding: 10px 15px;
+    width: 100px;
   }
-
-  .navbarButton {
-    margin: 10px 10px;
+}
+@media only screen and (max-width: 300px) {
+  .buttonFront {
+    width: 80px;
+    font-size: 0.9rem;
   }
-
-  /* .buttonFront {
-    width: 120px;
-    padding: 12px 20px;
-    font-size: 1.25rem;
-  } */
 }
