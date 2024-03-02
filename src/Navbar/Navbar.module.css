@@ -2,11 +2,27 @@
   width: 100%;
   position: sticky;
   top: 0;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px 0;
+  z-index: 3;
+
+}
+
+.buttonBar {
+  width: 100%;
   padding: 20px 0;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  margin-bottom: 200px;
+}
+
+.overlayContainer {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbarButton {
@@ -34,7 +50,7 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .navbar {
+  .buttonBar {
     position: sticky;
     top: 0;
   }
@@ -45,7 +61,7 @@
 }
 
 @media only screen and (max-width: 700px) {
-  .navbar {
+  .buttonBar {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
@@ -57,7 +73,7 @@
     margin: 5px 10px;
   }
   
-  .navbar {
+  .buttonBar {
     padding: 10px 0;
     margin-bottom: 0;
   }
