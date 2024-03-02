@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d0152189.css",
-    "main.js": "/static/js/main.7b1e6d0b.js",
+    "main.css": "/static/css/main.e1bf318e.css",
+    "main.js": "/static/js/main.3a98535e.js",
     "static/media/teacozy.jpg": "/static/media/teacozy.3316704d657cb23a988b.jpg",
     "static/media/ravenous.jpg": "/static/media/ravenous.13a4a5f1369590aa72b2.jpg",
     "static/media/colmaracademy.png": "/static/media/colmaracademy.8da821582d551f49f1a8.png",
@@ -10,11 +10,11 @@
     "static/media/excursion.jpg": "/static/media/excursion.77f33ff530cf8539aec4.jpg",
     "static/media/SeanToselloResume.pdf": "/static/media/SeanToselloResume.c6374eecb1f617b0a080.pdf",
     "index.html": "/index.html",
-    "main.d0152189.css.map": "/static/css/main.d0152189.css.map",
-    "main.7b1e6d0b.js.map": "/static/js/main.7b1e6d0b.js.map"
+    "main.e1bf318e.css.map": "/static/css/main.e1bf318e.css.map",
+    "main.3a98535e.js.map": "/static/js/main.3a98535e.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0152189.css",
-    "static/js/main.7b1e6d0b.js"
+    "static/css/main.e1bf318e.css",
+    "static/js/main.3a98535e.js"
   ]
 }
