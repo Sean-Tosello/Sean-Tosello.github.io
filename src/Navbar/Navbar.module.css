@@ -30,7 +30,6 @@
   border: none;
   padding: 0;
   cursor: pointer;
-  outline-offset: 4px;
 }
 .buttonFront {
   display: block;
@@ -44,8 +43,20 @@
   transform: translateY(-6px);
 }
 
+.navbarButton:hover .buttonFront {
+  background-color: rgb(255, 115, 0);
+  color: whitesmoke;
+  transition: .3s ease-in 0s all;
+  }
+
+.navbarButton:hover {
+  background-color: rgb(190, 86, 0);
+  transition: .3s ease-in 0s all;
+}
+
 .navbarButton:active .buttonFront {
   transform: translateY(-2px);
+  transition: 0s ease-out 0s all;
 }
 
 @media only screen and (max-width: 900px) {

@@ -56,10 +56,19 @@
   width: 80px;
   background-color: whitesmoke;
   transform: translateY(-6px);
+  filter:grayscale(100%);
+}
+
+.projectButton:hover .buttonFront {
+  filter: grayscale(0%);
+  height: 90px;
+  width: 90px;
+  transition: .3s ease-in 0s all;
 }
 
 .projectButton:active .buttonFront {
   transform: translateY(-2px);
+  transition: 0s ease-out 0s all;
 }
 
 /* Project Container */

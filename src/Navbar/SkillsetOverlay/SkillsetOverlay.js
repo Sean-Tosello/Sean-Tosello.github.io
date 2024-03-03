@@ -19,23 +19,23 @@ const SkillsetOverlay = () => {
       {/* Skill Button Container */} 
       <ul className={styles.buttonsList}>
         <li className={styles.buttonBox}>
-          <button className={styles.skillsetButton} onClick={() => toggleHandler(0)}><img className={styles.buttonFront} src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript"/></button>
+          <button className={styles.skillsetButton} onClick={() => toggleHandler(0)}><img className={styles.buttonFront} src="https://img.icons8.com/color/96/javascript--v1.png" alt="javascript"/></button>
           <h3>JavaScript</h3>
         </li>
         <li className={styles.buttonBox}>
-          <button className={styles.skillsetButton} onClick={() => toggleHandler(1)}><img className={styles.buttonFront} src="https://img.icons8.com/color/48/react-native.png" alt="React"/></button>
+          <button className={styles.skillsetButton} onClick={() => toggleHandler(1)}><img className={styles.buttonFront} src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="React"/></button>
           <h3>React</h3> 
         </li>
         <li className={styles.buttonBox}>
-          <button className={styles.skillsetButton} onClick={() => toggleHandler(2)}><img className={styles.buttonFront} src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5"/></button>
+          <button className={styles.skillsetButton} onClick={() => toggleHandler(2)}><img className={styles.buttonFront} src="https://img.icons8.com/color/96/html-5--v1.png" alt="html-5"/></button>
           <h3>HTML5</h3>
         </li>
         <li className={styles.buttonBox}>
-          <button className={styles.skillsetButton} onClick={() => toggleHandler(3)}><img className={styles.buttonFront} src="https://img.icons8.com/color/48/css3.png" alt="css3"/></button>
+          <button className={styles.skillsetButton} onClick={() => toggleHandler(3)}><img className={styles.buttonFront} src="https://img.icons8.com/color/96/css3.png" alt="css3"/></button>
           <h3>CSS</h3>
         </li>
         <li className={styles.buttonBox}>
-          <button className={styles.skillsetButton} onClick={() => toggleHandler(4)}><img className={styles.buttonFront} src="https://img.icons8.com/color/48/python--v1.png" alt="python--v1"/></button>
+          <button className={styles.skillsetButton} onClick={() => toggleHandler(4)}><img className={styles.buttonFront} src="https://img.icons8.com/color/96/python--v1.png" alt="python"/></button>
           <h3>Python</h3> 
         </li>
       </ul>

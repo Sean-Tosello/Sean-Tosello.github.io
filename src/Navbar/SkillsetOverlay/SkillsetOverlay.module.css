@@ -51,10 +51,19 @@
   height: 80px;
   background-color: whitesmoke;
   transform: translateY(-6px);
+  filter:grayscale(100%);
+}
+
+.skillsetButton:hover .buttonFront {
+  filter: grayscale(0%);
+  width: 90px;
+  height: 90px;
+  transition: .3s ease-in 0s all;
 }
 
 .skillsetButton:active .buttonFront {
   transform: translateY(-2px);
+  transition: 0s ease-out 0s all;
 }
 
 /* Skill Text Container */
@@ -124,10 +133,16 @@
     align-items: flex-start;
   }
 
-  .buttonFront {
+  /* .buttonFront {
     width: 48px;
     height: 48px;
-  }
+  } */
+
+  /* .skillsetButton:hover .buttonFront {
+    width: 55px;
+    height: 55px;
+    transition: .3s ease-in 0s all;
+  } */
 }
 
 
