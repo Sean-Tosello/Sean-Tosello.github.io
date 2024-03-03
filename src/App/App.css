@@ -16,3 +16,16 @@ html, body {
   min-height: 100vh; 
   min-width: 100vw;
 }
+
+@keyframes fade-in {
+  0% {
+    filter:brightness(0) blur(5px);
+  }
+  100% {
+    filter: brightness(1) blur(0px);
+  }
+}
+
+body {
+  animation: fade-in 2s ease-in;
+}
