@@ -1,4 +1,4 @@
-.faviconBar {
+.iconBar {
   position: fixed;
   top: 30vh;
   display: flex;
@@ -7,7 +7,7 @@
   z-index: 4;
 }
 
-.faviconBar ul {
+.iconBar ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -17,12 +17,12 @@
   justify-content: space-around;
 }
 
-.faviconBar li {
+.iconBar li {
   margin: 0;
   padding: 30px 0;
 }
 
-.faviconButton {
+.iconButton {
   background-color: rgb(153, 153, 153);
   border-radius: 12px;
   border: none;
@@ -41,27 +41,27 @@
   filter: grayscale(100%);
 }
 
-.faviconButton:hover .buttonFront {
+.iconButton:hover .buttonFront {
   filter: grayscale(0%);
   width: 55px;
   height: 55px;
-  transition: .3s ease-in 0s all;
+  transition: .3s ease-out 0s all;
 }
 
-.faviconButton:active .buttonFront {
+.iconButton:active .buttonFront {
   transform: translateY(-2px);
   transition: 0s ease-out 0s all;
 }
 
 @media only screen and (max-width: 1100px) {
-  .faviconBar {
+  .iconBar {
     position: static;
     top: auto;
     right: auto;
     width: 100%;
     padding: 60px 0;
   }
-  .faviconBar ul {
+  .iconBar ul {
     width: 100%;
     flex-direction: row;
     align-items: center;
@@ -72,16 +72,3 @@
     padding: 5px;
   }
 }
-
-/* @media only screen and (max-width: 400px) {
-  .faviconBar {
-    height: fit-content;
-  }
-  .buttonFront {
-    padding: 0;
-    transform: translateY(-4px);
-  }
-  .faviconButton {
-    border-radius: 8px;
-  }
-} */

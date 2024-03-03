@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Navbar from '../Navbar/Navbar';
 import Body from '../Body/Body';
-import FaviconBar from '../FaviconBar/FaviconBar';
+import IconBar from '../IconBar/IconBar';
 import Footer from '../Footer/Footer';
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
     <div className="App">
       <Navbar />
       <Body />
-      <FaviconBar />
+      <IconBar />
       <Footer />
     </div>
   );

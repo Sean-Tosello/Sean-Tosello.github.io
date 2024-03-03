@@ -21,7 +21,7 @@
   -.5px -.5px 0 #a7a7a7,
   .5px -.5px 0 #a7a7a7,
   0px 6px 0px #a7a7a7;
-  transition: 0.3s ease-in 0s all;
+  transition: 0.3s ease-in-out 0s all;
 }
 
 .bodyContainer:hover .header h2{
@@ -31,11 +31,12 @@
   -.5px -.5px 0 #a7a7a7,
   .5px -.5px 0 #a7a7a7,
   0px 6px 0px #a7a7a7;
-  transition: 0.3s ease-in 0s all;
+  transition: 0.3s ease-in-out 0s all;
 }
 
 .bodyContainer:hover .body, .bodyContainer:hover .bodyMobile{
   filter: grayscale(0%);
+  transition: 0.3s ease-in-out 0s all;
 }
 
 .header {
@@ -75,19 +76,12 @@
   filter: grayscale(100%);
 }
 
-/* .grey {
-  filter: grayscale(100%);
-} */
 
 @media only screen and (max-width: 1400px){
   .body h4 {
     font-size: 1.5em;
-    /* text-shadow:
-    .5px .5px 0 #a7a7a7,
-    -.5px .5px 0 #a7a7a7,
-    -.5px -.5px 0 #a7a7a7,
-    .5px -.5px 0 #a7a7a7,
-    0px 2px 0px #a7a7a7; */
+    text-shadow:
+    0px 2px 0px #a7a7a7;
   }
 }
 
@@ -140,12 +134,12 @@
   .bodyMobile h4 {
     font-size: .8em;
     font-weight: 600;
-    /* text-shadow:
+    text-shadow:
     .15px .15px 0 #a7a7a7,
     -.15px .15px 0 #a7a7a7,
     -.15px -.15px 0 #a7a7a7,
     .15px -.15px 0 #a7a7a7,
-    0px .5px 0px #a7a7a7; */
+    0px .5px 0px #a7a7a7;
     margin: .5em 0;
   }
   
