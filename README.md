@@ -16,3 +16,5 @@ This is my personal portfolio website which I built to convey my technical skill
 - Use of conic-gradients to simulate light fixtures in a dark room
 - One page structure for all material that makes all of my portfolio materials and experience accessible
 - Custom media queries to ensure website responsiveness across an array of devices
+
+### MIT License
