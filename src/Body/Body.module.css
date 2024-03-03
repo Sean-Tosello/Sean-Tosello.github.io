@@ -14,26 +14,6 @@
   0px 4px 0px #a7a7a7;
 }
 
-.bodyContainer:hover .header h1{
-  text-shadow:
-  .5px .5px 0 #a7a7a7,
-  -.5px .5px 0 #a7a7a7,
-  -.5px -.5px 0 #a7a7a7,
-  .5px -.5px 0 #a7a7a7,
-  0px 6px 0px #a7a7a7;
-  transition: 0.3s ease-in-out 0s all;
-}
-
-.bodyContainer:hover .header h2{
-  text-shadow:
-  .5px .5px 0 #a7a7a7,
-  -.5px .5px 0 #a7a7a7,
-  -.5px -.5px 0 #a7a7a7,
-  .5px -.5px 0 #a7a7a7,
-  0px 6px 0px #a7a7a7;
-  transition: 0.3s ease-in-out 0s all;
-}
-
 .bodyContainer:hover .body, .bodyContainer:hover .bodyMobile{
   filter: grayscale(0%);
   transition: 0.3s ease-in-out 0s all;
