@@ -1,9 +1,7 @@
 .projectsOverlay {
-  padding: 30px 0;
+  padding: 30px 0 0 0;
   display: flex;
   flex-flow: row wrap;
-  margin-top: 0;
-  margin-left: 0;
   width: 100%;
 }
 
@@ -12,19 +10,11 @@
 .buttonsList {
   display: flex;
   width: 100%;
-  height: 100%;
+  height: fit-content;
+  flex-flow: row nowrap;
   justify-content: space-around;
   align-items: flex-start;
   list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.buttonWithText {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: flex-start;
-  justify-content: center;
   padding: 0;
   margin: 0;
 }
@@ -41,8 +31,12 @@
 .buttonBox h3 {
   padding: 0;
   margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-transform: uppercase;
-  text-shadow: 0 1.5px 0px rgb(134, 134, 134)
+  text-shadow: 0 1.5px 0px rgb(134, 134, 134);
+  width: 80px;
 }
 
 .projectButton {
@@ -70,12 +64,12 @@
 
 /* Project Container */
 
-.projectContainer {
+.projectTextContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100%;
+  height: fit-content;
   padding: 0;
   margin: 0;
 }
@@ -83,7 +77,7 @@
 .projectText {
   display: flex;
   flex-flow: row wrap;
-  padding: 10px 10px;
+  padding: 15px;
   border-radius: 12px;
   height: fit-content;
   max-width: 70%;
@@ -100,11 +94,14 @@
 .projectText p {
   padding: 0;
   margin: 0 0 0 0.5em;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 1.5em;
 }
 
 .projectText h4 {
   width: 100%;
+  font-size: 1.5em;
+  font-weight: 600;
   padding: 0;
   margin: 0 0 0.5em 0;
   text-align: center;
@@ -123,9 +120,11 @@
 .featuresList {
   display: flex;
   flex-flow: column wrap;
+  justify-content: flex-start;
   text-align: left;
-  list-style-type: none;
+  list-style: none;
   padding: 0;
+  margin: 0;
   width: 50%;
   height: 100%;
 }
@@ -138,9 +137,7 @@
   }
   
   .projectText {
-    padding: 5px;
     width: 100%;
-    height: fit-content;
   }
   
   .projectDescription {
@@ -155,24 +152,10 @@
 }
 
 @media only screen and (max-width: 650px) {
-  .projectsOverlay {
-    height: 30%;
-  }
-  
-  .buttonFront {
-    width: 60px;
-    height: 60px;
-  }
-
-  .buttonBox {
-    max-width: 75px;
-  }
-
   .buttonsList {
     flex-flow: row wrap;
     justify-content: center;
     align-items: flex-start;
-    height: 100%;
   }
 }
 
@@ -182,15 +165,15 @@
   }
 
   .buttonBox h3 {
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
   .projectText p {
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
   .projectText h4 {
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
 }

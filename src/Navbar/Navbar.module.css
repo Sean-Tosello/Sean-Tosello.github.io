@@ -19,10 +19,9 @@
 
 .overlayContainer {
   width: 100%;
-  height: fit-content;
+  height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-flow: column nowrap;
 }
 
 .navbarButton {
