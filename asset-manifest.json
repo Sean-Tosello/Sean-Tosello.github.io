@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.73a3218c.css",
-    "main.js": "/static/js/main.54dbe894.js",
+    "main.css": "/static/css/main.db8b4895.css",
+    "main.js": "/static/js/main.9620cc8c.js",
     "static/media/teacozy.jpg": "/static/media/teacozy.3316704d657cb23a988b.jpg",
     "static/media/ravenous.jpg": "/static/media/ravenous.13a4a5f1369590aa72b2.jpg",
     "static/media/colmaracademy.png": "/static/media/colmaracademy.8da821582d551f49f1a8.png",
@@ -10,11 +10,11 @@
     "static/media/excursion.jpg": "/static/media/excursion.77f33ff530cf8539aec4.jpg",
     "static/media/SeanToselloResume.pdf": "/static/media/SeanToselloResume.4f92816c68816680bfcc.pdf",
     "index.html": "/index.html",
-    "main.73a3218c.css.map": "/static/css/main.73a3218c.css.map",
-    "main.54dbe894.js.map": "/static/js/main.54dbe894.js.map"
+    "main.db8b4895.css.map": "/static/css/main.db8b4895.css.map",
+    "main.9620cc8c.js.map": "/static/js/main.9620cc8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.73a3218c.css",
-    "static/js/main.54dbe894.js"
+    "static/css/main.db8b4895.css",
+    "static/js/main.9620cc8c.js"
   ]
 }
