@@ -1,6 +1,5 @@
 .bodyContainer {
   width: 100%;
-  /* margin-top: 10%; */
   height: 80vh;
   display: flex;
   flex-direction: column;
@@ -12,12 +11,12 @@
 .header {
   padding-bottom: 40px;
   text-align: center;
-  text-shadow:
+  /* text-shadow:
   .5px .5px 0 #a7a7a7,
   -.5px .5px 0 #a7a7a7,
   -.5px -.5px 0 #a7a7a7,
   .5px -.5px 0 #a7a7a7,
-  0px 4px 0px #a7a7a7;
+  0px 4px 0px #a7a7a7; */
 }
 
 .header h1 {
@@ -62,6 +61,10 @@
 }
 
 @media only screen and (max-width: 1100px){
+  .bodyContainer {
+    height: 60vh;
+  }
+  
   .header h1 {
     font-size: 6em;
   }
@@ -121,7 +124,10 @@
   
 }
 
-@media only screen and (max-width: 325px){
+@media only screen and (max-width: 360px){
+  .bodyContainer {
+    height: 70vh;
+  }
   .header h2 {
     font-size: 1.5em;
   }

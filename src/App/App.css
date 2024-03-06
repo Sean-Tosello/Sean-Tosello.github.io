@@ -1,4 +1,5 @@
 html, body {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -26,7 +27,7 @@ html, body {
   min-width: 100vw;
 }
 
-/* @keyframes fade-in {
+@keyframes fade-in {
   0% {
     filter:brightness(0) blur(5px);
   }
@@ -36,5 +37,5 @@ html, body {
 }
 
 body {
-  animation: fade-in 2s ease-in;
-} */
+  animation: fade-in 1.5s ease-in;
+}
