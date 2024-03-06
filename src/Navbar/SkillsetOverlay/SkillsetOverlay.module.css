@@ -24,7 +24,7 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-  margin: 0;
+  margin: 0; 
 }
 
 .buttonBox h3 {
@@ -39,7 +39,7 @@
   border-radius: 12px;
   border: none;
   padding: 0;
-  cursor: pointer;
+  cursor: pointer; 
   outline-offset: 4px;
 }
 
@@ -54,12 +54,16 @@
   filter:grayscale(100%);
 }
 
-.skillsetButton:hover .buttonFront {
-  filter: grayscale(0%);
-  width: 90px;
-  height: 90px;
+.buttonBox:hover {
+  transform: scale(1.125);
   transition: .3s ease-in 0s all;
 }
+
+.skillsetButton:hover .buttonFront {
+  filter: grayscale(0%);
+  transition: .3s ease-out 0s all;
+}
+
 
 .skillsetButton:active .buttonFront {
   transform: translateY(-2px);

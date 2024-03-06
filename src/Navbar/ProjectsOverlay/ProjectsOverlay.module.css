@@ -59,10 +59,13 @@
   filter:grayscale(100%);
 }
 
+.buttonBox:hover {
+  transform: scale(1.125);
+  transition: .3s ease-in 0s all;
+}
+
 .projectButton:hover .buttonFront {
   filter: grayscale(0%);
-  height: 90px;
-  width: 90px;
   transition: .3s ease-in 0s all;
 }
 

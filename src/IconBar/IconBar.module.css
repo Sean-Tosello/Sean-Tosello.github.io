@@ -10,7 +10,6 @@
 .iconBar ul {
   list-style: none;
   margin: 0;
-  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,8 +19,7 @@
 
 .iconBar li {
   margin: 0;
-  height: 108px;
-  width: 55px;
+  padding: 30px;
 }
 
 .iconButton {
@@ -43,10 +41,13 @@
   filter: grayscale(100%);
 }
 
+
+.iconBar li:hover {
+  transform: scale(1.125);
+  transition: .3s ease-out 0s all;
+}
 .iconButton:hover .buttonFront {
   filter: grayscale(0%);
-  width: 55px;
-  height: 55px;
   transition: .3s ease-out 0s all;
 }
 
