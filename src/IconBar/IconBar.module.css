@@ -1,25 +1,27 @@
 .iconBar {
   position: fixed;
-  top: 30vh;
+  top: 250px;
   display: flex;
-  right: 20px;
-  padding: 20px 0;
+  right: 0;
   z-index: 4;
+  padding: 20px;
 }
 
 .iconBar ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  padding: 30px 0;
 }
 
 .iconBar li {
   margin: 0;
-  padding: 30px 0;
+  height: 108px;
+  width: 55px;
 }
 
 .iconButton {

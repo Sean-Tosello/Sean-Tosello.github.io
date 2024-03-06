@@ -8,8 +8,17 @@ html, body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: conic-gradient(at 0% 20%, rgba(0, 0, 0, 50%) 20deg, rgba(243, 243, 243, 0.5) 110deg, rgba(0, 0, 0, 50%) 160deg),
-    conic-gradient(at 100% 20%, rgba(0, 0, 0, 0.9) 200deg, rgba(255, 255, 255, 0.9) 250deg, rgba(0, 0, 0, 0.9) 340deg);
+  /* background: conic-gradient(at 0% 20%, rgba(0, 0, 0, 50%) 20deg, rgba(243, 243, 243, 0.5) 110deg, rgba(0, 0, 0, 50%) 160deg),
+    conic-gradient(at 100% 20%, rgba(0, 0, 0, 0.9) 200deg, rgba(255, 255, 255, 0.9) 250deg, rgba(0, 0, 0, 0.9) 340deg); */
+
+  /* background:  conic-gradient(at 0% 10%, rgba(0, 0, 0, 50%) 90deg, rgba(119, 0, 255, 0.5) 110deg, rgba(0, 0, 0, 50%) 130deg),
+    conic-gradient(at 100% 10%, rgba(0, 0, 0, 0.9) 230deg, rgba(119, 0, 255, 0.9) 250deg, rgba(0, 0, 0, 0.9) 270deg); */
+
+  /* background: conic-gradient(at 50% 0%, rgba(0, 0, 0) 90deg, rgba(119, 0, 255, 0.788) 180deg, rgba(0, 0, 0) 270deg); */
+
+  background-color: rgb(65, 63, 70);
+
+
   background-repeat: no-repeat;
   color: whitesmoke;
   background-size: cover;
@@ -17,7 +26,7 @@ html, body {
   min-width: 100vw;
 }
 
-@keyframes fade-in {
+/* @keyframes fade-in {
   0% {
     filter:brightness(0) blur(5px);
   }
@@ -28,4 +37,4 @@ html, body {
 
 body {
   animation: fade-in 2s ease-in;
-}
+} */
