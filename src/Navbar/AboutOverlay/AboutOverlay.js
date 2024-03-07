@@ -11,7 +11,9 @@ const AboutOverlay = () => {
       <div className={styles.personalIntro}>
           <h4>Hello there!</h4>
           <p>
-            I'm Sean Tosello, a Front End Engineer with a passion for solving problems and creating innovative solutions. I have experience in JavaScript, React, HTML, and CSS, and pride myself in having the mindset of a lifelong learner. I'm also a creative thinker and an enthusiastic collaborator. Let's work together to create something amazing!
+            I'm Sean Tosello, a seasoned Academic and Secondary/Post-Secondary Educator turned Front End Engineer. Through my academic background I bring a high standard of excellence, a meticulous attention to detail, a persistent passion for learning and an enthusiasm for engineering innovative solutions. As a Front-End Engineer I leverage JavaScript, React, HTML, and CSS to build effective web applications. 
+
+            Let's work together to create something amazing!
           </p>
       </div>
     </div>  

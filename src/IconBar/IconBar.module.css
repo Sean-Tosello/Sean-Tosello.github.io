@@ -4,6 +4,8 @@
   display: flex;
   right: 0;
   z-index: 4;
+  height: 448px;
+  padding: 0 30px;
 }
 
 .iconBar ul {
@@ -17,7 +19,6 @@
 
 .iconBar li {
   margin: 0;
-  padding: 30px;
 }
 
 .iconButton {
@@ -54,13 +55,14 @@
   transition: 0s ease-out 0s all;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1200px) {
   .iconBar {
     position: static;
     top: auto;
     right: auto;
     width: 100%;
-    padding: 60px 0;
+    height: 100%;
+    padding: 30px 0;
   }
   .iconBar ul {
     width: 100%;
@@ -69,7 +71,13 @@
     justify-content: space-around;
   }
 
-  .buttonFront {
-    padding: 5px;
+  .iconButton {
+    transform: scale(1.125);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .iconButton {
+    transform: scale(1);
   }
 }
