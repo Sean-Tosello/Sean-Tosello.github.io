@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.c6348530.css",
-    "main.js": "/static/js/main.167675e4.js",
+    "main.js": "/static/js/main.a3e806c2.js",
     "static/media/teacozy.jpg": "/static/media/teacozy.3316704d657cb23a988b.jpg",
     "static/media/ravenous.jpg": "/static/media/ravenous.13a4a5f1369590aa72b2.jpg",
     "static/media/colmaracademy.png": "/static/media/colmaracademy.8da821582d551f49f1a8.png",
     "static/media/profile-right.jpg": "/static/media/profile-right.7d155f96fd510439aacf.jpg",
     "static/media/profileSquare.jpg": "/static/media/profileSquare.7d155f96fd510439aacf.jpg",
+    "static/media/SeanToselloResume.pdf": "/static/media/SeanToselloResume.27fa2f55c7a01bb106ee.pdf",
     "static/media/excursion.jpg": "/static/media/excursion.77f33ff530cf8539aec4.jpg",
-    "static/media/SeanToselloResume.pdf": "/static/media/SeanToselloResume.4f92816c68816680bfcc.pdf",
     "index.html": "/index.html",
     "main.c6348530.css.map": "/static/css/main.c6348530.css.map",
-    "main.167675e4.js.map": "/static/js/main.167675e4.js.map"
+    "main.a3e806c2.js.map": "/static/js/main.a3e806c2.js.map"
   },
   "entrypoints": [
     "static/css/main.c6348530.css",
-    "static/js/main.167675e4.js"
+    "static/js/main.a3e806c2.js"
   ]
 }
