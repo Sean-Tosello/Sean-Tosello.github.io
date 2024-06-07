@@ -47,6 +47,7 @@ const ProjectsOverlay = () => {
       </ul>
       {/* Project Text Container */}
       <div className={styles.projectTextContainer}>
+        {/* Portfolio Text */}
         <div className={styles.projectText} style={{ display: showProjectText[0] ? 'flex' : 'none'}}>
           <div className={styles.projectDescription}>
             <h4>Project Description:</h4>
@@ -59,11 +60,15 @@ const ProjectsOverlay = () => {
             <li><p> ~ React Components</p></li>
             <li><p> ~ Original Custom Design</p></li>
           </ul>
+          <div className={styles.links}>
+            <a href="https://github.com/Sean-Tosello/sean-tosello.github.io" target="_blank" rel="noopener noreferrer"><button><p>Code on Github!</p></button></a>
+          </div>
         </div>
+        {/* Ravenous Text */}
         <div className={styles.projectText} style={{ display: showProjectText[1] ? 'flex' : 'none'}}>
           <div className={styles.projectDescription}>
             <h4>Project Description:</h4>
-            <p>This project asked students to build a React-based web application called "ravenous" that gives food recommendations using react hooks to Yelp's API.</p>
+            <p>This project asked students to build a React-based web application called "ravenous" that provides food recommendations using Yelp's API.</p>
           </div>
           <ul className={styles.featuresList}> 
             <li><h4>Features:</h4></li>
@@ -73,7 +78,12 @@ const ProjectsOverlay = () => {
             <li><p> ~ Original Custom Design</p></li>
             <li><p> ~ React Hook with Yelp API</p></li>
           </ul>
+          <div className={styles.links}>
+            <a href="https://github.com/Sean-Tosello/ravenous" target="_blank" rel="noopener noreferrer"><button><p>Code on Github!</p></button></a>
+            <a href="https://seantosello.com/ravenous" target="_blank" rel="noopener noreferrer"><button><p>See it in action!</p></button></a>
+          </div>
         </div> 
+        {/* Colmar Academy Text */}
         <div className={styles.projectText} style={{ display: showProjectText[2] ? 'flex' : 'none'}}>
           <div className={styles.projectDescription}>
             <h4>Project Description:</h4>
@@ -85,7 +95,12 @@ const ProjectsOverlay = () => {
             <li><p> ~ Responsive Design</p></li>
             <li><p> ~ Original Custom Design</p></li>
           </ul>
+          <div className={styles.links}>
+            <a href="https://github.com/Sean-Tosello/colmar-academy-capstone-project" target="_blank" rel="noopener noreferrer"><button><p>Code on Github!</p></button></a>
+            <a href="https://seantosello.com/colmar-academy-capstone-project" target="_blank" rel="noopener noreferrer"><button><p>See it in action!</p></button></a>
+          </div>
         </div>
+        {/* Tea Cozy Text */}
         <div className={styles.projectText} style={{ display: showProjectText[3] ? 'flex' : 'none'}}>
           <div className={styles.projectDescription}>
             <h4>Project Description:</h4>
@@ -96,7 +111,12 @@ const ProjectsOverlay = () => {
             <li><p> ~ Languages: HTML, CSS</p></li>
             <li><p> ~ Original Custom Design</p></li>
           </ul>
+          <div className={styles.links}>
+            <a href="https://github.com/Sean-Tosello/tea-cozy-practice-project" target="_blank" rel="noopener noreferrer"><button><p>Code on Github!</p></button></a>
+            <a href="https://seantosello.com/tea-cozy-practice-project" target="_blank" rel="noopener noreferrer"><button><p>See it in action!</p></button></a>
+          </div>
         </div>
+        {/* Excursion Text */}
         <div className={styles.projectText} style={{ display: showProjectText[4] ? 'flex' : 'none'}}> 
           <div className={styles.projectDescription}>
             <h4>Project Description:</h4>
@@ -106,6 +126,10 @@ const ProjectsOverlay = () => {
             <li><h4>Features:</h4></li>
             <li><p> ~ Languages: HTML, CSS</p></li>
           </ul>
+          <div className={styles.links}>
+            <a href="https://github.com/Sean-Tosello/excursion-practice-project" target="_blank" rel="noopener noreferrer"><button><p>Code on Github!</p></button></a>
+            <a href="https://seantosello.com/excursion-practice-project" target="_blank" rel="noopener noreferrer"><button><p>See it in action!</p></button></a>
+          </div>
         </div>   
       </div>
     </div>  

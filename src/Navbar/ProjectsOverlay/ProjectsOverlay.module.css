@@ -94,7 +94,7 @@
   height: fit-content;
   max-width: 70%;
   background-color: rgba(245, 245, 245);
-  color: rgb(255, 115, 0);
+  color: rgb(65, 63, 70);
   box-shadow: 
   1px 1px 0 rgb(8, 8, 8),
   -1px 1px 0 rgb(201, 201, 201),
@@ -139,6 +139,68 @@
   margin: 0;
   width: 50%;
   height: 100%;
+}
+
+.links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 15px 0 0 0;
+  margin: 20px 0 0 0;
+  width: 100%;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.links button {
+  background-color: whitesmoke;
+  border-radius: 6px;
+  border: none;
+  margin: 0 10px;
+  padding: 10px 10px;
+  cursor: pointer;
+  box-shadow: 
+  .5px .5px 0 rgb(201, 201, 201),
+  -.5px .5px 0 rgb(201, 201, 201),
+  -.5px -.5px 0 rgb(201, 201, 201),
+  .5px -.5px 0 rgb(201, 201, 201),
+  0px 6px 0px rgb(153, 153, 153);
+}
+
+.links button:hover {
+  background-color: rgb(255, 115, 0);
+  transition: .3s ease-in 0s all;
+}
+
+.links button:hover {
+  box-shadow:
+  .5px .5px 0 rgb(235, 106, 0),
+  -.5px .5px 0 rgb(235, 106, 0),
+  -.5px -.5px 0 rgb(235, 106, 0),
+  .5px -.5px 0 rgb(235, 106, 0),
+  0px 6px 0px rgb(190, 86, 0);
+}
+
+.links button:hover p {
+  color: whitesmoke;
+  transition: .3s ease-in 0s all;
+}
+
+.links button:active {
+  transform: translateY(2px);
+  transition: 0s ease-out 0s all;
+}
+
+.links p {
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(255, 115, 0);
 }
 
 
