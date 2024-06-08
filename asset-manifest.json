@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.cf7e9773.css",
-    "main.js": "/static/js/main.8ebc96f6.js",
+    "main.js": "/static/js/main.48e3bd62.js",
     "static/media/teacozy.jpg": "/static/media/teacozy.3316704d657cb23a988b.jpg",
     "static/media/ravenous.jpg": "/static/media/ravenous.13a4a5f1369590aa72b2.jpg",
     "static/media/colmaracademy.png": "/static/media/colmaracademy.8da821582d551f49f1a8.png",
     "static/media/profile-right.jpg": "/static/media/profile-right.7d155f96fd510439aacf.jpg",
     "static/media/profileSquare.jpg": "/static/media/profileSquare.7d155f96fd510439aacf.jpg",
-    "static/media/SeanToselloResume.pdf": "/static/media/SeanToselloResume.27fa2f55c7a01bb106ee.pdf",
+    "static/media/SeanToselloResume.pdf": "/static/media/SeanToselloResume.1f8b1ab36a4ce602c156.pdf",
     "static/media/excursion.jpg": "/static/media/excursion.77f33ff530cf8539aec4.jpg",
     "index.html": "/index.html",
     "main.cf7e9773.css.map": "/static/css/main.cf7e9773.css.map",
-    "main.8ebc96f6.js.map": "/static/js/main.8ebc96f6.js.map"
+    "main.48e3bd62.js.map": "/static/js/main.48e3bd62.js.map"
   },
   "entrypoints": [
     "static/css/main.cf7e9773.css",
-    "static/js/main.8ebc96f6.js"
+    "static/js/main.48e3bd62.js"
   ]
 }
