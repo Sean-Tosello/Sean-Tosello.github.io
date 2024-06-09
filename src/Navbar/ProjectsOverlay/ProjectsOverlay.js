@@ -78,9 +78,13 @@ const ProjectsOverlay = () => {
             <li><p> ~ Original Custom Design</p></li>
             <li><p> ~ React Hook with Yelp API</p></li>
           </ul>
+          <div className={styles.disclaimer}>
+            <p>*Disclaimer*</p> 
+            <p>To maintain API Key security the demo below is recorded footage of the live site.</p>
+          </div>
           <div className={styles.links}>
             <a href="https://github.com/Sean-Tosello/ravenous" target="_blank" rel="noopener noreferrer"><button><p>Code on Github!</p></button></a>
-            <a href="https://seantosello.com/ravenous" target="_blank" rel="noopener noreferrer"><button><p>See it in action!</p></button></a>
+            <a href="https://www.loom.com/share/f2219e6e25724e2eb7739ea3af3c61a6?sid=5272c411-6dc8-447a-a8d6-68885c62393e" target="_blank" rel="noopener noreferrer"><button><p>See it in action!</p></button></a>
           </div>
         </div> 
         {/* Colmar Academy Text */}
